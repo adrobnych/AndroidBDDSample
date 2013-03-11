@@ -5,10 +5,10 @@ import android.test.ActivityInstrumentationTestCase2;
 import com.calculator.Main;
 import com.jayway.android.robotium.solo.Solo;
 
-public class TestMainJU4 extends ActivityInstrumentationTestCase2<Main> {
+public class WishListShouldDisplayPreviouslyAddedProducts extends ActivityInstrumentationTestCase2<Main> {
 	private Solo solo;
 	
-	public TestMainJU4() {
+	public WishListShouldDisplayPreviouslyAddedProducts() {
 		super(Main.class);
 	}
 
