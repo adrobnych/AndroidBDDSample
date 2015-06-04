@@ -42,6 +42,8 @@ public class WishListShouldDisplayPreviouslyAddedProducts extends ActivityInstru
 		solo.clickOnButton("Multiply");
 		//Verify that resultant of 10 x 20
 		assertTrue(solo.searchText("200"));
+		//testing of parralel editing
+		//...
 	}
 	
 	public void tearDown() throws Exception {
